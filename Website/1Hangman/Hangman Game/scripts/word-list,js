@@ -1,0 +1,62 @@
+const wordList = [
+    {
+        word: "carbon",
+        hint: "A key element in greenhouse gases contributing to global warming."
+    },
+    {
+        word: "emissions",
+        hint: "Gases released into the atmosphere from human activities."
+    },
+    {
+        word: "glacier",
+        hint: "A large mass of ice that is melting due to rising temperatures."
+    },
+    {
+        word: "fossil",
+        hint: "Type of fuel that releases carbon dioxide when burned."
+    },
+    {
+        word: "renewable",
+        hint: "Energy sources that do not deplete, like wind and solar."
+    },
+    {
+        word: "hurricane",
+        hint: "A severe storm that can be intensified by rising sea temperatures."
+    },
+    {
+        word: "drought",
+        hint: "A prolonged period of abnormally low rainfall."
+    },
+    {
+        word: "mitigation",
+        hint: "Efforts to reduce or prevent the effects of climate change."
+    },
+    {
+        word: "adaptation",
+        hint: "Changes made to live with the effects of climate change."
+    },
+    {
+        word: "permafrost",
+        hint: "Ground that remains frozen year-round but is now thawing."
+    },
+    {
+        word: "recycling",
+        hint: "The process of converting waste into reusable materials."
+    },
+    {
+        word: "wildfire",
+        hint: "Uncontrolled fires that become more frequent due to heat and drought."
+    },
+    {
+        word: "methane",
+        hint: "A potent greenhouse gas released by livestock and decomposing waste."
+    },
+    {
+        word: "solar",
+        hint: "Energy harnessed from the sun to generate electricity."
+    },
+    {
+        word: "greenhouse",
+        hint: "The effect that traps heat in Earth's atmosphere."
+    }
+];
