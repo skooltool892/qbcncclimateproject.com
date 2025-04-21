@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://source.unsplash.com/1600x900/?earth,planet') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    background-color: #ead25f;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.options button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.options button:nth-child(1) { background-color: #ff5733; } /* Red */
+.options button:nth-child(2) { background-color: #33c1ff; } /* Blue */
+.options button:nth-child(3) { background-color: #33ff57; } /* Green */
+.options button:nth-child(4) { background-color: #ff33e3; } /* Pink */
+
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
